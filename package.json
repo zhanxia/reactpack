@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack",
-    "dev": "webpack-dev-server"
+    "start": "webpack-dev-server"
   },
   "repository": {
     "type": "git",
@@ -27,7 +27,9 @@
     "webpack-dev-server": "^2.5.1"
   },
   "dependencies": {
-    "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "react": "^15.6.2",
+    "react-dom": "^15.6.1",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2"
   }
 }
