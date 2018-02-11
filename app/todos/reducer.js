@@ -1,14 +1,14 @@
-import {ADDTODO,REMOVETODO,TOGGLETODO} from "./actionTypes";
+import {ADD_TODO,REMOVE_TODO,TOGGLE_TODO} from "./actionTypes";
 
 export default (state = [],action) => {
     switch(action.type){
-        case ADDTODO:{
+        case ADD_TODO:{
             return state;
         }
-        case REMOVETODO:{
+        case REMOVE_TODO:{
             return state;
         }
-        case TOGGLETODO:{
+        case TOGGLE_TODO:{
             return state;
         }
         default:
