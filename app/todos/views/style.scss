@@ -13,3 +13,23 @@
         cursor: pointer;
     }
 }
+.list__todo{
+    padding: 0;
+    margin: 20px 0;
+    li{
+        width: 370px;
+        overflow: hidden;
+        line-height: 26px;
+        input{
+            float: left;
+            height: 24px;
+        }
+        label{
+            float: left;
+        }
+        span{
+            float: right;
+            cursor: pointer;
+        }
+    }
+}
